@@ -76,9 +76,19 @@ color:white;
 }
 .textcoursparticuliers{
   color:white;
+  margin-top:30px;
+}
+.infosservice{
+  margin-left:20px;
+  margin-top:30px;
+}
+.infosannul{
+  margin-left:20px;
+  margin-top:30px;
 }
 .textcourscollectifs{
   color:white;
+  margin-top:30px;
 }
 /* Main navbar */
 .navbar-wagon {
