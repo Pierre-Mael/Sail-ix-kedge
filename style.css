@@ -1,0 +1,174 @@
+.background{
+  background-size:cover;
+  background-color:rgb(100,100,100);
+}
+.banner{
+	background: url(images/banniere.png);
+	text-align:center;
+	background-size:cover;
+	padding:200px 200px;
+  width:100%;
+  background-position: center center;
+  color:rgb(0,32,96);
+  font-style:;
+}
+.coursparticuliers{
+color:white;
+}
+.cours{
+  color:white;
+  text-align:center;
+}
+.button{
+  cursor:pointer;
+  height:50px;
+  width:250px;
+}
+.test1{
+	background:url(images/logovoilier4.png);
+	background-size:cover;
+  color:rgb(0,32,96);
+	text-align:center;
+	height: 100px;
+  width:100%;
+	margin:10px;
+  background-position: center center;
+  padding:320px 100px;
+}
+.tci{
+  color:rgb(0,32,96);
+  border-style:solid;
+}
+.tcc{
+  margin-top:30px;
+  color:rgb(0,32,96);
+  border-style:solid;
+}
+.test2{
+	background:url(images/logovoilier3.png);
+	background-size:cover;
+	text-align:center;
+  color:rgb(0,32,96);
+	height:80px;
+  width:100%;
+  margin-top:130px;
+  background-position: center center;
+  padding:260px 200px;
+}
+.textcoursparticuliers{
+  color:white;
+}
+.textcourscollectifs{
+  color:white;
+}
+/* Main navbar */
+.navbar-wagon {
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  background: white;
+  transition: all 0.3s ease;
+  height: 70px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.map{
+  align-items:center;
+  margin:auto;
+  width:100%;
+}
+/* Logo */
+.navbar-wagon-brand img {
+  height: 50px;
+}
+.inscription{
+  color:white;
+  text-align:center;
+  font-size:50px;
+}
+/* User Avatar */
+.navbar-wagon .avatar {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+
+/* Right section */
+.navbar-wagon-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Basic navbar item */
+.navbar-wagon-item {
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+/* Navbar link */
+.navbar-wagon-link {
+  color: #616668;
+  font-size: 14px;
+}
+.navbar-wagon-link:hover {
+  color: #da552f;
+  text-decoration: none;
+}
+
+/* Dropdown menu */
+.navbar-wagon-dropdown-menu {
+  margin-top: 15px;
+  box-shadow: 1px 1px 4px #E6E6E6;
+  border-color: #E6E6E6;
+}
+.navbar-wagon-dropdown-menu li > a {
+  transition: color 0.3s ease;
+  font-weight: lighter !important;
+  color: #999999 !important;
+  font-size: 15px !important;
+  line-height: 22px !important;
+  padding: 10px 20px;
+}
+.navbar-wagon-dropdown-menu li > a:hover {
+  background: transparent !important;
+  color: black !important;
+}
+.navbar-wagon-dropdown-menu:before {
+  content: ' ';
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  right: 10px;
+  top: -6px;
+  background-color: white;
+  transform: rotate(45deg);
+  border-left: 1px solid #E6E6E6;
+  border-top: 1px solid #E6E6E6;
+}
+.footer {
+  background: #F4F4F4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
